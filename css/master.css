@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat|Playfair+Display');
+
+.reset {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-image: url("../pictures/background.png");
+}
+
+.sizeFortyEight {
+  font-size:48;
+}
+
+.fontMont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fontPlay {
+  font-family: 'Playfair Display', serif;
+}
+
+.fontAbril {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.margin7 {
+  margin-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.marginSidebar {
+  padding: 20px 0 20px 5%;
+}
+
+.marginNav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding: 8px 84px 8px 84px;
+}
+
+.marginFirstNav {
+  padding-left: 84px;
+}
+
+.flexBox {
+  display: flex;
+}
+
+.rowNoWrap {
+  flex-flow: row nowrap;
+}
+
+.rowWrap {
+  flex-flow: row wrap;
+}
+
+.backgroundBlack {
+  background-color:#0B0014;
+}
+
+.backgroundWhite {
+  background-color:#F7EFE9;
+}
+
+.backgroundGold {
+  background-color:rgba(249, 219, 189, .3);
+}
+
+.borderPurple {
+    border-top: 4px solid #A491D3;
+    border-bottom: 4px solid #A491D3;
+}
+
+.textBlack {
+  color:#0B0014;
+}
+
+.textWhite {
+  color:#F7EFE9;
+}
+
+.textPink {
+  color:#E8C2B4;
+}
+
+.textBlue {
+  color:#00FDDC;
+}
+
+.textPurple {
+  color:#A491D3;
+}
+
+.textHot {
+  color: #FFA5AB;
+}
+
+.textRed {
+  color: #FF5E5B;
+}
+
+.twoHundred {
+  flex: 0 0 200px;
+}
+
+.paddingMain {
+  padding: 0 50px 50px 0;
+}
+
+.marginFifty {
+  margin: 50px 0 0 50px;
+}
+
+.deactive:hover{
+  color:#FF5E5B;
+}
+
+h3:hover {
+  padding-left:20%;
+  background-color:#FF5E5B;
+  color:#0B0014;
+}
+
+.active {
+  background-color:#635C69;
+}
+
+.transColor {
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.itemContainer {
+  border: 2px solid #0B0014;
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  float:left;
+}
+
+.itemImage {
+  height: 300px;
+}
+
+.itemImage:hover {
+  -webkit-filter:blur(1px);
+  filter:blur(1px);
+}
+
+.itemTitle {
+  position: absolute;
+  top: calc(50% - (19.2px / 2));
+  left: calc(50% - (31.95px / 2));
+  /* opacity: 0; */
+}
+
+/* I can't get this to work...
+
+.itemImage:hover .itemTitle {
+  opacity: 1;
+} */
+23
