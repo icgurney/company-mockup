@@ -5,13 +5,17 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   scroll-behavior: smooth;
   background-image: url("../pictures/background.png");
 }
 
 .sizeFortyEight {
-  font-size:48;
+  font-size:48px;
 }
 
 .fontMont {
@@ -24,6 +28,7 @@ body {
 
 .fontAbril {
   font-family: 'Abril Fatface', cursive;
+  font-size:24px;
 }
 
 .textCenter {
@@ -115,8 +120,27 @@ body {
   flex: 0 0 200px;
 }
 
+/* I'd like to get this to work too.
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+} */
+
 .paddingMain {
   padding: 0 50px 50px 0;
+}
+
+.marginMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.spaced {
+  align-items: center;
 }
 
 .marginFifty {
@@ -143,14 +167,16 @@ h3:hover {
   transition: all .5s;
 }
 
-.itemContainer {
+.blackBorder {
   border: 2px solid #0B0014;
   border-radius: 5%;
-  width: 200px;
+}
+
+.itemContainer {
+  flex: 0 0 200px;
   height: 200px;
   overflow: hidden;
   position: relative;
-  float:left;
 }
 
 .itemImage {
@@ -174,4 +200,15 @@ h3:hover {
 .itemImage:hover .itemTitle {
   opacity: 1;
 } */
-23
+
+.marginTen {
+  margin: 10px 0 0 10px;
+}
+
+.column {
+  flex-flow: column nowrap;
+}
+
+.marginContact {
+  margin: 5px;
+}
