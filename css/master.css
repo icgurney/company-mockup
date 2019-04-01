@@ -18,6 +18,10 @@ body {
   font-size:48px;
 }
 
+.sizeTwentyFour {
+  font-size: 124%;
+}
+
 .fontMont {
   font-family: 'Montserrat', sans-serif;
 }
@@ -28,7 +32,7 @@ body {
 
 .fontAbril {
   font-family: 'Abril Fatface', cursive;
-  font-size:24px;
+  font-size:18px;
 }
 
 .textCenter {
@@ -40,23 +44,23 @@ body {
 }
 
 .margin7 {
-  margin-left: 50px;
-  padding-top: 25px;
-  padding-bottom: 15px;
+  margin-left: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
 }
 
 .marginSidebar {
-  padding: 20px 0 20px 5%;
+  padding: 5% 0 5% 5%;
 }
 
 .marginNav {
   padding-top: 8px;
   padding-bottom: 8px;
-  padding: 8px 84px 8px 84px;
+  padding: 8px 5% 8px 5%;
 }
 
 .marginFirstNav {
-  padding-left: 84px;
+  padding-left: 10%;
 }
 
 .flexBox {
@@ -117,7 +121,7 @@ body {
 }
 
 .twoHundred {
-  flex: 0 0 200px;
+  flex: 0 0 10%;
 }
 
 /* I'd like to get this to work too.
@@ -128,15 +132,15 @@ body {
 } */
 
 .paddingMain {
-  padding: 0 50px 50px 0;
+  padding: 0 5% 5% 0;
 }
 
 .marginMain {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .spaced {
@@ -144,7 +148,7 @@ body {
 }
 
 .marginFifty {
-  margin: 50px 0 0 50px;
+  margin: 5% 0 0 5%;
 }
 
 .deactive:hover{
@@ -174,7 +178,8 @@ h3:hover {
 
 .itemContainer {
   flex: 0 0 200px;
-  height: 200px;
+  height: 0;
+  padding-bottom: 200px;
   overflow: hidden;
   position: relative;
 }
@@ -183,9 +188,8 @@ h3:hover {
   height: 300px;
 }
 
-.itemImage:hover {
-  -webkit-filter:blur(1px);
-  filter:blur(1px);
+.itemContainer:hover {
+  padding-bottom: 300px;
 }
 
 .itemTitle {
@@ -201,8 +205,10 @@ h3:hover {
   opacity: 1;
 } */
 
+/* Somehow I got this to work  */
 .marginTen {
   margin: 10px 0 0 10px;
+  width: 55%;
 }
 
 .column {
@@ -212,3 +218,19 @@ h3:hover {
 .marginContact {
   margin: 5px;
 }
+
+.submit {
+  margin-left: 40%;
+}
+
+.subMargin {
+  flex: 1 0 360px;
+}
+
+.anotherClass {
+  flex: 1 0 360px;
+}
+
+/* .shrink {
+  flex: 1 0;
+} */

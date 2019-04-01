@@ -11,9 +11,9 @@
     </header>
 
     <nav class="textCenter flexBox rowNoWrap backgroundBlack borderPurple">
-      <h2 class="textWhite fontMont reset marginNav transColor marginFirstNav deactive">main</h2>
-      <h2 class="textWhite fontMont reset marginNav transColor deactive">product</h2>
-      <h2 class="textWhite fontMont reset marginNav transColor active">contact</h2>
+      <a href="./index.html" class="marginNav"><h2 class="textWhite fontMont reset transColor deactive marginFirstNav sizeTwentyFour">main</h2></a>
+      <a href="./product.html" class="marginNav"><h2 class="textWhite fontMont reset transColor deactive sizeTwentyFour">product</h2></a>
+      <h2 class="textWhite fontMont reset transColor active sizeTwentyFour marginNav">contact</h2>
     </nav>
 
     <main class="flexBox marginMain column blackBorder spaced">
@@ -28,9 +28,9 @@
       </div>
       <div class="marginContact">
         <input type="radio" name="type" id="complaint">
-        <label for="complaint">Complaint</label>
+        <label for="complaint">Complaint</label><br>
         <input type="radio" name="type" id="suggestion">
-        <label for="suggestion">Suggestion</label>
+        <label for="suggestion">Suggestion</label><br>
         <input type="radio" name="type" id="question">
         <label for="question">Question</label>
       </div>
@@ -38,10 +38,10 @@
         <label for="comment">Comment here:</label>
       </div>
       <div class="marginContact">
-        <textarea name="comment" rows="8" cols="40" placeholder="Comments"></textarea>
+        <textarea name="comment" rows="8" cols="20%" placeholder="Comments"></textarea>
       </div>
       <div class="marginContact">
-        <input type="submit" name="submit" value="Submit">
+        <input type="submit" name="submit" value="Submit" class="submit">
       </div>
 
     </main>
